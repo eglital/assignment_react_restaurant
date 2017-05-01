@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Header from "./Header";
 import Reservation from "./Reservation";
 import Menu from "./Menu";
+import Contact from "./Contact";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Header />
         <Reservation />
         <Menu />
+        <Contact />
       </div>
     );
   }
