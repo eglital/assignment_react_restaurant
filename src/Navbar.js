@@ -8,12 +8,22 @@ const Navbar = () => {
         <nav className="navbar navbar-default">
           <div className="container-fluid">
             <div className="navbar-header">
-              <a className="navbar-brand" href="#">
-                Restaurant
-              </a>
+              <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span className="sr-only">Toggle navigation</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+              </button>
+              <a className="navbar-brand" href="#">Brand</a>
+            </div>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul className="nav navbar-nav navbar-right">
+                <li className=""><a href="#menu">Menu</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+              </ul>
             </div>
           </div>
-        </nav>   
+        </nav>
     );
     
 };
