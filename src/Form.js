@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
   return (
     <div className="col-xs-6">
-      <div className="panel panel-default">
+      <div className="panel">
         <div className="panel-heading">Reservations</div>
         <div className="panel-body">
           <form id="reservations">

@@ -5,6 +5,7 @@ import Header from "./Header";
 import Reservation from "./Reservation";
 import Menu from "./Menu";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <Reservation />
         <Menu />
         <Contact />
+        <Footer />
       </div>
     );
   }

@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #A4B1C0;
+    background-color: #BCC8D7;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -41,4 +41,24 @@ td {
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#reservation-info {
+  font-size: 1.3em;
+}
+
+.panel {
+  background-color: #BCC8D7;
+-webkit-box-shadow: 9px 9px 22px 5px rgba(100,123,151,1);
+-moz-box-shadow: 9px 9px 22px 5px rgba(100,123,151,1);
+box-shadow: 9px 9px 22px 5px rgba(100,123,151,1);
+    border: 1px solid #647B97;
+}
+
+.panel-heading {
+    background-color: #647B97;
+}
+
+#contact {
+    margin-bottom: 50px;
 }
