@@ -4,8 +4,7 @@ import src from "./sandwich.jpg";
 const Header = props => {
   return (
     <div className="jumbotron">
-      <h1>Restaurant</h1>
-      <img className="heading-img" src={src} alt="sandwich"/>
+      <h1 className="text-center">Sixteen</h1>
     </div>
   );
 };
