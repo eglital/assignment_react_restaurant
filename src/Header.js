@@ -1,5 +1,4 @@
 import React from "react";
-import src from "./sandwich.jpg";
 
 const Header = props => {
   return (

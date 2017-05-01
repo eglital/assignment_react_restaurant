@@ -21,8 +21,19 @@ const Menu = () => {
     })
     
     return (
-        <div id="menu">
-            {items}
+        <div className="row">
+            <div id="menu" className="col-xs-6 col-xs-offset-3 well">
+                <div className="text-center">
+                    <h1>Menu</h1>
+                    <hr/>
+                    <h3>Nibbles</h3>
+                    {items}
+                    <h3>Kibbles</h3>
+                    {items}
+                    <h3>Dessert</h3>
+                    {items}
+                </div>
+            </div>
         </div>
     );
 };

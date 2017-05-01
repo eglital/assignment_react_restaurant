@@ -4,8 +4,7 @@ const MenuItem = ({ item }) => {
     
     return (
         <div>
-            <h4>{item.name}</h4>
-            <p>${item.price}</p>
+            <h5>{item.name} - ${item.price}</h5>
         </div>
     );
     

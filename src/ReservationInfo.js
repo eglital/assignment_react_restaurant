@@ -12,31 +12,35 @@ const Info = () => {
       </p>
       <br />
       <table>
-        <tr>
-          <td>LUNCH</td>
-        </tr>
-        <tr>
-          <td>Mon to Sun</td>
-          <td>12:00 to 15:00</td>
-        </tr>
+          <tbody>
+            <tr>
+              <td>LUNCH</td>
+            </tr>
+            <tr>
+              <td>Mon to Sun</td>
+              <td>12:00 to 15:00</td>
+            </tr>
+        </tbody>
       </table>
       <br />
       <table>
-        <tr>
-          <td>DINNER</td>
-        </tr>
-        <tr>
-          <td>Mon to Thur</td>
-          <td>18:00 to 22:00</td>
-        </tr>
-        <tr>
-          <td>Fri & Sat</td>
-          <td>17:30 to 22:00</td>
-        </tr>
-        <tr>
-          <td>Sun</td>
-          <td>18:00 to 21:30</td>
-        </tr>
+        <tbody>
+            <tr>
+              <td>DINNER</td>
+            </tr>
+            <tr>
+              <td>Mon to Thur</td>
+              <td>18:00 to 22:00</td>
+            </tr>
+            <tr>
+              <td>Fri & Sat</td>
+              <td>17:30 to 22:00</td>
+            </tr>
+            <tr>
+              <td>Sun</td>
+              <td>18:00 to 21:30</td>
+            </tr>
+        </tbody>
       </table>
       <br />
       <p>
